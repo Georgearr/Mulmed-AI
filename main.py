@@ -56,7 +56,7 @@ def is_precise_slide_end(spoken_text, slide_text):
     # Ambil 2-3 kata terakhir dari spoken_text
     words = spoken_text.split()
     end_phrase = " ".join(words[-3:] if len(words) >= 3 else words)
-
+ 
     # kt bandingin sama slide sebelum selanjutnya
     ratio = difflib.SequenceMatcher(None, end_phrase, slide_text[-len(end_phrase):]).ratio()
     print(f"Match ratio (akhir 2-3 kata): {ratio:.2f}")

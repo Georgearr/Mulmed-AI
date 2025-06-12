@@ -79,7 +79,7 @@ export GOOGLE_API_KEY="[Masukkan API Key Google Gemini]"
 1. Buka PowerPoint dan aktifkan `Slide Show (F5).`
 
 2. Jalankan script:
-`python audio_slide_changer_precise_full.py`
+`python main.py`
 
 3. Slide akan berganti otomatis saat akhir kalimat terdeteksi.
 
