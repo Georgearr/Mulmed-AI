@@ -1,0 +1,8 @@
+torch
+transformers
+openai
+google-generativeai
+pyaudio
+SpeechRecognition
+pywin32
+python-dotenv
